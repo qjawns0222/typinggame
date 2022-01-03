@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.header{
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(-45deg,#F0C27B,#4B1248);/*linear-gradient(시작지점,색깔,색깔) -45는 처음 색깔이 뒤로  45는 처음색깔이 앞으로*/
+    color: aliceblue;
+}
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 70px;
+    font-weight: bold;
+    
+    height: 15rem;
+    color: #F0C27B;
+}
+.input{
+   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+.word-input{
+    padding: 0.3rem;
+    width: 17rem;
+
+}
+.info{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 22.5%;
+   
+}
+.info>div{
+    width: 7rem;
+    
+    
+}
+.button{
+    width: 300px;
+    height: 35px;
+    background: linear-gradient(-45deg,#F0C27B,#4B1248);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.loading{
+    background: #ccc;
+    cursor: not-allowed;
+}
+.speed{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+  
+}
+.speed>button{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: linear-gradient(-45deg,#F0C27B,#4B1248);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.number{
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1rem;
+    background: linear-gradient(-45deg,#F0C27B,#4B1248);
+    color: aliceblue;
+}
+.num{
+    margin: 5px;
+    height: 1.3rem;
+}
+.numb{
+    height: 1.5rem;
+}
